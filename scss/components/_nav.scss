@@ -1,0 +1,33 @@
+.nav {
+    background-color: #F30000;
+    border-radius: 8px;
+    max-width: 1200.01px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 576px) {
+        display: none;
+    }
+
+    &__link-items {
+        margin: 0;
+        text-transform: uppercase;
+        list-style: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19.2px;
+
+    }
+
+    &__link-item {
+        border-right: 1px solid #FFFFFF;
+        padding: 0 25px;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.lottery {
+    margin-bottom: 74.65px;
+    max-width: 1200.01px;
+
+    .section__title {
+        margin-top: 75px;
+        margin-left: 9px;
+        margin-bottom: 30px;
+    }
+
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15px;
+    }
+
+    &__item {
+        width: 100%;
+        max-width: 380px;
+        height: 150px;
+        padding: 0;
+        position: relative;
+    }
+
+    &__item+&__item {
+        margin-left: 15px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4px;
+    }
+
+    &__img {
+        margin-right: 24px;
+    }
+
+    &__money-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #000000;
+        display: contents;
+
+        & img {
+            margin-right: 7px;
+            margin-left: 7px;
+        }
+    }
+
+    &__money-number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 22px;
+        color: #13902A;
+        margin-top: 14.5px;
+    }
+
+    &__bottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #0061A3;
+        height: 58px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        position: absolute;
+        bottom: 0;
+        border-radius: 0 0 8px 8px;
+
+        & .btn {
+            margin-left: 12.25px;
+        }
+    }
+
+    &__time {
+        margin-right: 72px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & img {
+            margin-right: 4px;
+        }
+    }
+}

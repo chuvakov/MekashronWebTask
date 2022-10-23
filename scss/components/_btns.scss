@@ -1,0 +1,40 @@
+.btn {
+    padding: 7.5px 38px;
+    border-radius: 8px;
+    line-height: 19.2px;
+
+    &-primary {
+        background-color: $primary;
+    }
+
+    &-yellow {
+        background-color: #F7D300;
+        border: 1px solid #F7D300;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #000000;
+        transition: all linear 200ms;
+
+        &:hover {
+            background-color: transparent;
+            color: #F7D300;
+        }
+    }
+
+    &-sm {
+        width: 171px;
+        height: 36px;
+    }
+
+    &-md {
+        max-width: 182px;
+        max-height: 38px;
+    }
+
+    &-lg {
+        width: 232px;
+        height: 40px;
+    }
+}

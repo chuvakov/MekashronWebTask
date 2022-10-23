@@ -1,0 +1,62 @@
+.header {
+    margin-bottom: 15px;
+    padding-top: 25px;
+    max-width: 1200.01px;
+
+    @media screen and (max-width: 576px) {
+        margin-bottom: 24px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+
+        @media screen and (max-width: 576px) {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
+    &__account {
+        a {
+            font-weight: 500;
+            font-size: 14px;
+            color: #0061A3;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 576px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    &__logo {
+        margin-right: 29px;
+
+        @media screen and (max-width: 576px) {
+            margin: 0;
+            width: 182px;
+            height: 44px;
+            margin-bottom: 4px;
+        }
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 94px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__menu {
+        @media screen and (max-width: 576px) {
+            display: none;
+        }
+    }
+}

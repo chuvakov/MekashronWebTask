@@ -1,0 +1,134 @@
+.footer {
+    background: url(/img/card/Untitled.svg) no-repeat;
+    padding: 133.36px 0 55.63px 108.73px;
+    max-width: 1200.01px;
+    width: 100%;
+
+    @media screen and (max-width: 576px) {
+        display: none;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 56px;
+    }
+
+    &__socials {
+        a+a {
+            margin-left: 10px;
+        }
+    }
+
+    &__social {
+        width: 36px;
+        height: 36px;
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__item {
+        max-width: 249px;
+    }
+
+    &__item+&__item {
+        margin-left: 192px;
+    }
+
+    &__whatsapp {
+
+        margin-left: 15px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        color: #5F5F5F;
+
+        strong {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+
+    &__title {
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    &__links {
+
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+            text-decoration: none;
+        }
+
+        li+li {
+            margin-bottom: 5px;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        color: #000000;
+    }
+
+    &__sub-text {
+        margin-top: 5.27px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    &__cards {
+
+        max-width: 152px;
+        min-width: 152px;
+
+        .row {
+
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+
+            .col {
+                margin: 0;
+                padding: 0;
+                flex: 0 0 0;
+            }
+        }
+
+        .row+.row {
+            margin-top: 10px;
+        }
+    }
+
+    &__security {
+        margin-top: 30px;
+        width: 141px;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

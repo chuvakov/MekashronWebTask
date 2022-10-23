@@ -1,0 +1,24 @@
+.questions {
+
+    margin-bottom: 75px;
+
+    &__title {
+        margin-top: 70px;
+        margin-bottom: 33px;
+    }
+
+    .accordion-button {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #0061A3;
+        box-shadow: none;
+        background-color: white !important;
+
+        &::after {
+            width: 1.25rem;
+            height: 1.25rem;
+            background-image: url(/img/card/icon/expand-more.svg);
+        }
+    }
+}
